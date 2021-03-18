@@ -50,7 +50,6 @@ def main():
     parser.add_argument("--video-file-path", help="The filepath of the video to display", type=Path, default=VIDEO_PATH)
     parser.add_argument("--target-file-path", help="The filepath of the video to extract", type=Path, default=None)
     parser.add_argument("--frame-rate", help="The target frame rate", type=int, default=FRAME_RATE)
-    parser.add_argument("--display-resolution", help="The resolution of the video", type=Tuple[int, int], default=None)
     parser.add_argument(
         "--output-resolution", help="The resolution of the output file", type=Tuple[int, int], default=None
     )
